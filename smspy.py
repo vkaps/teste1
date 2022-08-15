@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(
 							  from_='+12762849846',  
                               #messaging_service_sid='MGb442e709968ed997555cc3c1af38e965', 
-                              body='Hello now from pyth',      
+                              body='Hello now',      
                               to='+351 911 058 886' 
                           ) 
  
